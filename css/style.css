@@ -1,3 +1,4 @@
+/* Base Styles */
 @import url(http://weloveiconfonts.com/api/?family=entypo);
 
 col-, col-space, section, body {
@@ -14,7 +15,7 @@ col-space > * + *, section > * + * {
   margin-top: 1rem;
 }
 
-row- row-space, nav.switchin, rows-, rows-sapce, nav.switchin a {
+row- row-space, nav.switchin {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -22,6 +23,16 @@ row- row-space, nav.switchin, rows-, rows-sapce, nav.switchin a {
   -webkit-flex-flow: row nowrap;
   -ms-flex-flow: row nowrap;
   flex-flow: row nowrap;
+}
+
+rows- rows-space, nav.switchin a {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
 }
 
 row-space > * + * {
@@ -34,6 +45,10 @@ rows-space, nav.switchin a {
 
 rows-space > *, nav.switchin a > * {
   margin: 0 1rem 1rem 0;
+}
+
+html {
+  font-size: calc(10px + 2vmin);
 }
 
 body {
@@ -50,6 +65,7 @@ h1, h2 , h3, h4, p, a, span, img {
   display: block;
 }
 
+/* Create boxes at bottom of navigation */
 nav.switchin a {
   webkit-box-flex: initial;
   -webkit-flex: initial;
@@ -89,6 +105,7 @@ nav.switching i {
   font-style: normal;
 }
 
+/* Move section box to top center page */
 section {
   -webkit-box-flex: 1;
   -webkit-flex: 1;
@@ -129,6 +146,7 @@ a:hover {
   transition: all .1s;
 }
 
+/* Individual styles for navigation blocks */
 a:nth-child(1){
   background: #ea4c89;
 }
