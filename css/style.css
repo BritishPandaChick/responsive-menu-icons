@@ -1,28 +1,27 @@
-/* Base Styles */
 @import url(http://weloveiconfonts.com/api/?family=entypo);
 
-col-, col-space, section, body {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-flow: column nowrap;
-  -ms-flex-flow: column nowrap;
-  flex-flow: column nowrap;
+col-, col-space, section, body{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-flex-flow: column nowrap;
+	ms-flex-flow: column nowrap;
+	flex-flow: column nowrap;
 }
 
-col-space > * + *, section > * + * {
-  margin-top: 1rem;
+col-space > * + *, section > * + *{
+	margin-top: 1rem;
 }
 
-row- row-space, nav.switchin {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-flow: row nowrap;
-  -ms-flex-flow: row nowrap;
-  flex-flow: row nowrap;
+row- row-space, nav.switchin{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-flex-flow: row nowrap;
+	-ms-flex-flow: row nowrap;
+	flex-flow: row nowrap;
 }
 
 rows-, rows-space, nav.switchin a {
@@ -31,151 +30,148 @@ rows-, rows-space, nav.switchin a {
   display: -ms-flexbox;
   display: flex;
   -webkit-flex-flow: row wrap;
-  -ms-flex-flow: row wrap;
-  flex-flow: row wrap;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
 }
 
 row-space > * + * {
-  margin-left: 1rem;
+	margin-left: 1rem;
 }
 
-rows-space, nav.switchin a {
-  padding: 1rem 0 0 1rem;
+rows-space, nav.switchin a{
+	padding: 1rem 0 0 1rem;
 }
 
-rows-space > *, nav.switchin a > * {
-  margin: 0 1rem 1rem 0;
+rows-space > *, nav.switchin a > *{
+	margin: 0 1rem 1rem 0;
 }
 
-html {
-  font-size: calc(10px + 2vmin);
+html{
+	font-size: calc(10px + 2vmin);
 }
 
-body {
-  -webkit-box-pack: end;
-  -webkit-justify-content: flex-end;
-  -ms-flex-pack: end;
-  justify-content: flex-end;
-  min-height: 100vh;
-  font-family: Helvetica, sans-serif;
-  overflow: hidden;
+body{
+	-webkit-box-pack: end;
+	-webkit-justify-content: flex-end;
+	-ms-flex-pack: end;
+	justify-content: flex-end;
+	min-height: 100vh;
+	font-family: Helvetica, sans-serif;
+	overflow: hidden;
 }
 
-h1, h2, h3, h4, p, a, span, img {
-  display: block;
+h1, h2, h3, h4, p, a, span, img{
+	display: block;
 }
 
-/* Create boxes at bottom of navigation */
-nav.switchin a {
-  webkit-box-flex: initial;
-  -webkit-flex: initial;
-  ms-flex: initial;
-  flex: initial;
-  -webkit-box-flex: 1;
-  -webkit-flex-grow: 1;
-  -ms-flex-positive: 1;
-  flex-grow: 1;
-  font-size: 1rem;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
-  text-decoration: none;
+nav.switchin a{
+	webkit-box-flex: initial;
+	-webkit-flex: initial;
+	ms-flex: initial;
+	flex: initial;
+	-webkit-box-flex: 1;
+	-webkit-flex-grow: 1;
+	-ms-flex-positive: 1;
+	flex-grow: 1;
+	font-size: 1rem;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+	text-decoration: none;
 }
 
-nav.switchin a:hover label {
-  text-decoration: underline;
+nav.switchin a:hover label{
+	text-decoration: underline;
 }
 
-nav.switchin label {
-  color: rgba(255, 255, 255, 0.9);
-  font-size: 0.8em;
+nav.switchin label{
+	color: rgba(255, 255, 255, 0.9);
+	font-size: 0.8em;
 }
 
-nav.switching i {
-  color: rgba(255, 255, 255, 0.9);
-  font-size: 2em;
+nav.switchin i{
+	color: rgba(255, 255, 255, 0.9);
+	font-size: 2em;
 }
 
-[class*="entypo-"]:before {
-  font-family: 'entypo', sans-serif;
-  font-style: normal;
+[class*="entypo-"]:before{
+	font-family: 'entypo', sans-serif;
+	font-style: normal;
 }
 
-/* Move section box to top center page */
-section {
-  -webkit-box-flex: 1;
-  -webkit-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  text-align: center;
+section{
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	-ms-flex: 1;
+	flex: 1;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	text-align: center;
 }
 
-section h1 {
-  font-size: 11vmin;
-  font-weight: bold;
-  color: rgba(0, 0, 0, 0.87);
+section h1{
+	font-size: 11vmin;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 0.87);
 }
 
-section h3 {
-  font-style: italic;
+section h3{
+	font-style: italic;
 }
 
-section p {
-  padding: 0.3rem;
-  line-height: 150%;
-  max-width: 75ex;
-  font-size: 0.8rem;
+section p{
+	padding: 0 3rem;
+	line-height: 150%;
+	max-width: 75ex;
+	font-size: 0.8rem;
 }
 
-a:hover {
-  -webkit-transform: scale(1.025) translatez(0);
-  transform: scale(1.025) translatez(0);
-  -webkit-transition: all .1s;
-  transition: all .1s;
+a:hover{
+	-webkit-transform: scale(1.025) translatez(0);
+	transform: scale(1.025) translatez(0);
+	-webkit-transition: all .1s;
+	transition: all .1s;
 }
 
-/* Individual styles for navigation blocks */
 a:nth-child(1){
-  background: #ea4c89;
+	background: #ea4c89;
 }
 
-a:nth-child(1):hover {
-  background: #ea4c90;
+a:nth-child(1):hover{
+	background: #ea4c90;
 }
 
 a:nth-child(2){
-  background: #473144;
+	background: #473144;
 }
 
-a:nth-child(2):hover {
-  background: #473145;
+a:nth-child(2):hover{
+	background: #473145;
 }
 
 a:nth-child(3){
-  background: #CCB69B;
+	background: #CCB69B;
 }
 
-a:nth-child(3):hover {
-  background: #C3A989;
+a:nth-child(3):hover{
+	background: #C3A989;
 }
 
-a:nth-child(4) {
-  background: #DF9B6D;
+a:nth-child(4){
+	background: #DF9B6D;
 }
 
-a:nth-child(4):hover {
-  background: #da8c58;
+a:nth-child(4):hover{
+	#da8c58;
 }
