@@ -7,7 +7,7 @@ col-, col-space, section, body {
   display: -ms-flexbox;
   display: flex;
   -webkit-flex-flow: column nowrap;
-  -ms-flex-flow: column nowrap;
+  ms-flex-flow: column nowrap;
   flex-flow: column nowrap;
 }
 
@@ -31,8 +31,8 @@ rows-, rows-space, nav.switchin a {
   display: -ms-flexbox;
   display: flex;
   -webkit-flex-flow: row wrap;
-  -ms-flex-flow: row wrap;
-  flex-flow: row wrap;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
 }
 
 row-space > * + * {
@@ -96,7 +96,7 @@ nav.switchin label {
   font-size: 0.8em;
 }
 
-nav.switching i {
+nav.switchin i {
   color: rgba(255, 255, 255, 0.9);
   font-size: 2em;
 }
