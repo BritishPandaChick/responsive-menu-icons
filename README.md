@@ -1,11 +1,14 @@
 # Responsive Menu with Icons
-CodePlayer Responsive Menu with Icons project. Made with HTML and CSS.
+A menu with icons project 
+
+## Tech Stack
+- HTML
+- CSS
 
 ## Instructions
-Clone this repo or download the zip file. Open index.html file in your browser.
-
-## Contributions
-This code is based on starter code from TheCodePlayer.com. Therefore I will not be accepting any pull requests.
+1. Clone this repo or download the zip file. 
+2. Open index.html file in your browser.
+3. There is a headline in the center of the page with some text underneath. At the bottom of the screen is the navigation menu. Hover of each menu item to see the hover effect.
 
 ## Acknowledgements
 * TheCodePlayer.com
